@@ -42,7 +42,6 @@ NSInteger sortByStartIndex(NSDictionary* posA, NSDictionary* posB, void *context
                 @"symbol": symbol,
                 @"index": @(counter)
             };
-            //[positions addObject:pos];
             [self push:pos];
         }
         if ([closing containsObject:symbol] &&
